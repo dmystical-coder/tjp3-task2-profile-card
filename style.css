@@ -17,6 +17,8 @@ main{
 }
 
 .card{
+    width: 100%;
+    max-width: 450px;
     color: #ffffff;
     padding: 2rem;
     background: #165EF0;
@@ -53,16 +55,12 @@ a{
     color: #165EF0;
     padding: 1rem 2rem;
     border-radius: 1.5rem;
-    transition: ease-in 1s;
+    transition: ease-in 5ms;
 }
 
 a:hover{
     color: #ffffff;
     background-color: #002f8d;
     border-radius: 0;
-    transition: ease-out 1s;
-}
-
-svg path{
-    fill: #165EF0;
+    transition: ease-out 5ms;
 }
